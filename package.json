@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "signaling": "cd server && npm start",
+    "signaling:dev": "cd server && npm run dev"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",

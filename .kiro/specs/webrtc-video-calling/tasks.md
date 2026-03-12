@@ -6,7 +6,7 @@ This implementation plan breaks down the WebRTC video calling feature into incre
 
 ## Tasks
 
-- [ ] 1. Set up signaling server infrastructure
+- [x] 1. Set up signaling server infrastructure
   - Create `server/` directory in project root
   - Create `server/signaling-server.js` with WebSocket server using `ws` library
   - Implement room management (in-memory Map for rooms and participants)
@@ -16,7 +16,7 @@ This implementation plan breaks down the WebRTC video calling feature into incre
   - Add npm scripts to start signaling server
   - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5_
 
-- [ ]* 1.1 Write unit tests for signaling server
+- [x] 1.1 Write unit tests for signaling server
   - Test room creation and participant tracking
   - Test message relay between participants
   - Test cleanup on disconnect
