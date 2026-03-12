@@ -1,0 +1,1 @@
+In my .kiro/specs/references folder, I need to implemenet a web rtc where I can join a room for video and voice call on seperate tabs. Please document what has been modified and added and provide tasks for what is needed to do. Remember to keep the stack as a React, Tailwind.css project
